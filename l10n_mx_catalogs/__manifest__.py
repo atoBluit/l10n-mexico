@@ -5,7 +5,7 @@
     "Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-mexico",
     "category": "Localization",
-    "version": "17.0.1.2.0",
+    "version": "18.0.1.0.0",  # de 17.0.1.2.0
     "license": "LGPL-3",
     "depends": ["base"],
     "data": [
@@ -30,4 +30,5 @@
         "data/l10n_mx_catalogs.c_tipo_relacion.csv",
         "data/l10n_mx_catalogs.c_uso_cfdi.csv",
     ],
+	"installable": True,
 }

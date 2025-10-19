@@ -6,11 +6,12 @@
     "website": "https://github.com/OCA/l10n-mexico",
     "license": "LGPL-3",
     "category": "Accounting",
-    "version": "17.0.1.0.0",
+    "version": "18.0.1.0.0",  # Cambiar de 17.0.1.0.0
     "depends": ["l10n_mx_catalogs", "product"],
     "external_dependencies": {
         "python": ["facturama"],
-    },
+    
+	},
     "data": [
         "security/ir.model.access.csv",
         "security/l10n_mx_cfdi_security.xml",
@@ -26,4 +27,5 @@
         "views/res_partner.xml",
         "reports/report_cfdi_blocks.xml",
     ],
+	"installable": True,
 }

@@ -3,7 +3,7 @@
 {
     "name": "Contact CSF for Mexico",
     "summary": "Scan and extract information from CSF",
-    "version": "17.0.1.1.0",
+    "version": "18.0.1.0.0",
     "license": "AGPL-3",
     "website": "https://github.com/OCA/l10n-mexico",
     "author": "Open Source Integrators, " "Odoo Community Association (OCA)",
@@ -17,4 +17,5 @@
     "external_dependencies": {
         "python": ["pdfminer.six==20220319"],
     },
+    "installable": True,
 }
