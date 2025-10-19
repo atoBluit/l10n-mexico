@@ -78,7 +78,7 @@
                     </group>
                     <group>
                         <field name="related_cert_ids" readonly="state != 'draft'">
-                            <tree create="false">
+                            <list create="false">
                                 <field name="name" string="Folio" />
                                 <field name="type" />
                                 <field name="uuid" />
@@ -95,7 +95,7 @@
                                     filename="xml_filename"
                                 />
                                 <field name="xml_filename" column_invisible='1' />
-                            </tree>
+                            </list>
                         </field>
                     </group>
                 </page>

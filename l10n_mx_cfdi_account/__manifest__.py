@@ -6,7 +6,7 @@
     "website": "https://github.com/OCA/l10n-mexico",
     "license": "LGPL-3",
     "category": "Accounting",
-    "version": "17.0.1.0.2",
+    "version": "18.0.1.0.0",  # ← CAMBIO AQUÍ
     "depends": ["l10n_mx_cfdi", "l10n_mx"],
     "data": [
         "security/ir.model.access.csv",
@@ -22,4 +22,5 @@
         "reports/report_invoice.xml",
         "reports/report_payment.xml",
     ],
+    "installable": True,  # ← AGREGAR ESTA LÍNEA
 }
